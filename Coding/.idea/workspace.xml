@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa9136d-305c-4f30-8b66-2477968ce6c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/LFU_cache/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="5aa9136d-305c-4f30-8b66-2477968ce6c2" name="Changes" comment="Non Repeating Character question">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/FixedWindow/FixedWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/FixedWindow/FixedWindowRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/FixedWindow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/LeakyBucket/LeakyBuckerAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/LeakyBucket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/TokenBucket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/TokenBucket/TokenBucketAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/slidingWindow/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +32,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;noorulbhs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/noorulbhs/Coding.git&quot;,
+    &quot;accountId&quot;: &quot;fa913d13-691a-4e14-9e57-8d10badd1cff&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3DL4vAy91BkzgBtlLCmWwyZjGAp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,15 +55,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.org.example.codingPractise.FirstNonRepeatingCharacterStream.Main.executor": "Run",
+    "Application.org.example.codingPractise.RateLimiter.LeakyBucket.Main.executor": "Run",
+    "Application.org.example.codingPractise.RateLimiter.Main.executor": "Run",
+    "Application.org.example.codingPractise.RateLimiter.TokenBucket.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_directory_selection": "C:/Users/nooislam/Desktop/Coding/Coding/src/main/java/org/example/codingPractise"
+    "last_directory_selection": "C:/Users/nooislam/Desktop/Coding/Coding/src/main/java/org/example/codingPractise",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nooislam\Desktop\Coding\Coding\src\main\java\org\example\codingPractise\RateLimiter\FixedWindow" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.example.codingPractise.RateLimiter.TokenBucket.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.codingPractise.LRU_Cache.Main" />
       <module name="Coding" />
@@ -60,8 +89,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.codingPractise.FirstNonRepeatingCharacterStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codingPractise.FirstNonRepeatingCharacterStream.Main" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codingPractise.FirstNonRepeatingCharacterStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.codingPractise.RateLimiter.LeakyBucket.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codingPractise.RateLimiter.LeakyBucket.Main" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codingPractise.RateLimiter.LeakyBucket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.codingPractise.RateLimiter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codingPractise.RateLimiter.Main" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codingPractise.RateLimiter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.codingPractise.RateLimiter.TokenBucket.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codingPractise.RateLimiter.TokenBucket.Main" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codingPractise.RateLimiter.TokenBucket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.codingPractise.RateLimiter.TokenBucket.Main" />
+        <item itemvalue="Application.org.example.codingPractise.RateLimiter.LeakyBucket.Main" />
+        <item itemvalue="Application.org.example.codingPractise.RateLimiter.Main" />
+        <item itemvalue="Application.org.example.codingPractise.FirstNonRepeatingCharacterStream.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -74,7 +159,38 @@
       <option name="presentableId" value="Default" />
       <updated>1778048245339</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complete the LRU and LFU cdong">
+      <option name="closed" value="true" />
+      <created>1778059300286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778059300286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="setuping up maven">
+      <option name="closed" value="true" />
+      <created>1778059321191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778059321191</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Non Repeating Character question">
+      <option name="closed" value="true" />
+      <created>1778210179050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778210179050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete the LRU and LFU cdong" />
+    <MESSAGE value="setuping up maven" />
+    <MESSAGE value="Non Repeating Character question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Non Repeating Character question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -83,6 +199,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/LRU_Cache/LRU.java</url>
           <line>32</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/FirstNonRepeatingCharacterStream/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/FirstNonRepeatingCharacterStream/NonRepeatingCharacter.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/FirstNonRepeatingCharacterStream/NonRepeatingCharacter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/FirstNonRepeatingCharacterStream/NonRepeatingCharacter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/FirstNonRepeatingCharacterStream/NonRepeatingCharacter.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/TokenBucket/TokenBucketAlgorithm.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/codingPractise/RateLimiter/TokenBucket/TokenBucketAlgorithm.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
